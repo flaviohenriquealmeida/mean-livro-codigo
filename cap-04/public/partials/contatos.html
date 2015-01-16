@@ -10,6 +10,11 @@
 <input type="search" placeholder="parte do nome" ng-model="filtro">
 <div class="table-responsive">
   <table class="table table-hover">
+    <tr>
+      <th>NOME</th>
+      <th>EMERGÊNCIA</th>
+      <th class="text-center">Ação</th>
+    </tr>
   	<tr ng-repeat="contato in contatos | filter: filtro">
   		<td><a>{{contato.nome}}</a></td>
   		<td>{{contato.email}}</td>
