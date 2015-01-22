@@ -1,5 +1,4 @@
-angular.module('contatooh').factory('meuInterceptor', function($log, $q, $location) {  
-    $log.debug('$log is here to show you that this is a regular factory with injection');
+angular.module('contatooh').factory('meuInterceptor', function($q, $location) {  
 
     var meuInterceptor = {
     	responseError: function(resposta) {
