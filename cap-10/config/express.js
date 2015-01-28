@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var passport = require('passport');
-helmet = require('helmet');
+var helmet = require('helmet');
 
 module.exports = function() {
 
